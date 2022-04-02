@@ -1,0 +1,25 @@
+.join {
+    span {
+        font-size: 2.5rem;
+        color: $orange;
+    }
+    h3 {
+        @include title-Text(2.7rem);
+        padding-top: 1rem;
+    }
+    p {
+        padding: 1rem 0;
+        @include graph-Text(1.5rem)
+    }
+}
+
+@media (max-width: 991px) {
+    .join {
+        h3 {
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+    }
+}
